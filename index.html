@@ -1,67 +1,101 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Торти на замовлення в Вінниці" />
+    <meta
+      name="keywords"
+      content="Весільні торти Дитячі торти Ювілейні торти"
+    />
     <title>Торти на замовлення</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#aboutus">Про нас</a>
-          </li>
-          <li>
-            <a href="#advantages">Наші переваги</a>
-          </li>
-          <li>
-            <a href="#catalogs">Каталогрн</a>
-          </li>
-          <li>
-            <a href="#gallery">Галерея</a>
-          </li>
-          <li>
-            <a href="#contacts">Контакти</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="logo">
+            <svg class="icon-nav" width="168" height="50">
+              <use href="./images/icons.svg#icon-Logo"></use>
+            </svg>
+          </a>
+          <ul class="menu">
+            <li>
+              <a href="#aboutus" class="link">Про нас</a>
+            </li>
+            <li>
+              <a href="#advantages" class="link">Наші переваги</a>
+            </li>
+            <li>
+              <a href="#catalogs" class="link">Каталог</a>
+            </li>
+            <li>
+              <a href="#gallery" class="link">Галерея</a>
+            </li>
+            <li>
+              <a href="#address" class="link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Торти на замовлення в Вінниці</h1>
-        <p>
+      <section class="hero">
+        <h1 class="page-title">Торти на замовлення в Вінниці</h1>
+        <p class="hero-text">
           Ексклюзивний торт ручної роботи стане справжньою родзинкою Вашого
           торжества!
         </p>
-        <button type="button">Отримати консультацію</button>
+        <button type="button" class="hero-button">Отримати консультацію</button>
       </section>
-      <section>
+      <section class="aboutus">
         <img src="./images/0031.jpg" alt="two cooks" width="688" height="600" />
-        <h2 id="aboutus">Про нас</h2>
-        <p>
-          Вас вітає HappyCake – стильна кондитерська з молодим, амбітним,
-          талановитим і захопленим колективом. Ми готові робити для Вас яскраві,
-          оригінальні і креативні вироби з тіста. Асортимент нашої продукції
-          дуже великий. У ньому торти, капкейки, макаруни, печиво та багато
-          іншого. Виготовимо десерти для будь-якої події – будь-яких свят,
-          дитячих вечірок, весіль, корпоративних заходів.
-        </p>
+        <div class="container-aboutus">
+          <h2 id="aboutus">Про нас</h2>
+          <p class="aboutus-text">
+            Вас вітає HappyCake – стильна кондитерська з молодим, амбітним,
+            талановитим і захопленим колективом. Ми готові робити для Вас
+            яскраві, оригінальні і креативні вироби з тіста. Асортимент нашої
+            продукції дуже великий. У ньому торти, капкейки, макаруни, печиво та
+            багато іншого. Виготовимо десерти для будь-якої події – будь-яких
+            свят, дитячих вечірок, весіль, корпоративних заходів.
+          </p>
+        </div>
       </section>
-      <section>
+      <section class="advantages">
         <h2 id="advantages">Наші переваги</h2>
         <ul>
           <li>
-            <h3>Якість</h3>
-            <p>ручна робота і 100% натуральні інгредієнти</p>
+            <h3 class="advantages-title">Якість</h3>
+            <p class="advantages-text"
+              >ручна робота і 100% натуральні інгредієнти</p
+            >
           </li>
           <li>
-            <h3>Ексклюзивність</h3>
-            <p>розробимо дизайн торта з урахуванням Ваших побажань</p>
+            <h3 class="advantages-title">Ексклюзивність</h3>
+            <p class="advantages-text"
+              >розробимо дизайн торта з урахуванням Ваших побажань</p
+            >
           </li>
           <li>
-            <h3>Швидкість</h3>
-            <p>приготуємо торт через 48 годин після замовлення</p>
+            <h3 class="advantages-title">Швидкість</h3>
+            <p class="advantages-text"
+              >приготуємо торт через 48 годин після замовлення</p
+            >
           </li>
         </ul>
       </section>
@@ -75,8 +109,8 @@
               width="277"
               height="310"
             />
-            <p>Весільні торти</p>
-            <button type="button">Замовити</button>
+            <p class="catalogs-text">Весільні торти</p>
+            <button type="button" class="catalogs-button">Замовити</button>
           </li>
           <li>
             <img
@@ -85,8 +119,8 @@
               width="277"
               height="310"
             />
-            <p>Дитячі торти</p>
-            <button type="button">Замовити</button>
+            <p class="catalogs-text">Дитячі торти</p>
+            <button type="button" class="catalogs-button">Замовити</button>
           </li>
           <li>
             <img
@@ -95,8 +129,8 @@
               width="277"
               height="310"
             />
-            <p>Святкові торти</p>
-            <button type="button">Замовити</button>
+            <p class="catalogs-text">Святкові торти</p>
+            <button type="button" class="catalogs-button">Замовити</button>
           </li>
           <li>
             <img
@@ -105,8 +139,8 @@
               width="277"
               height="310"
             />
-            <p>Ювілейні торти</p>
-            <button type="button">Замовити</button>
+            <p class="catalogs-text">Ювілейні торти</p>
+            <button type="button" class="catalogs-button">Замовити</button>
           </li>
         </ul>
       </section>
@@ -119,6 +153,7 @@
               src="./images/Rectangle16.jpg"
               alt="cake with chocolate"
               width="278"
+              height="278"
             />
           </li>
           <li>
@@ -126,16 +161,23 @@
               src="./images/Gallery-06.jpg"
               alt="macaroni cake"
               width="278"
+              height="278"
             />
           </li>
           <li>
-            <img src="./images/Gallery-04.jpg" alt="cupcakes" width="278px" />
+            <img
+              src="./images/Gallery-04.jpg"
+              alt="cupcakes"
+              width="278px"
+              height="278"
+            />
           </li>
           <li>
             <img
               src="./images/Gallery-02.jpg"
               alt="three-layer cake"
               width="278"
+              height="278"
             />
           </li>
           <li>
@@ -143,6 +185,7 @@
               src="./images/Gallery-07.jpg"
               alt="cake with fruit"
               width="278"
+              height="278"
             />
           </li>
           <li>
@@ -150,6 +193,7 @@
               src="./images/Gallery-05.jpg"
               alt="cake with flowers"
               width="278"
+              height="278"
             />
           </li>
           <li>
@@ -157,38 +201,37 @@
               src="./images/Gallery-03.jpg"
               alt="cake with a horn"
               width="278"
+              height="278"
             />
           </li>
           <li>
-            <img src="./images/Gallery-01.jpg" alt="pink cake" width="278" />
+            <img
+              src="./images/Gallery-01.jpg"
+              alt="pink cake"
+              width="278"
+              height="278"
+            />
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="">
-        <img
-          src="./images/Rectangle11.jpg"
-          alt="map"
-          width="960px"
-          height="700px"
-        />
-      </a>
-      <h2 id="contacts">Контакти</h2>
-      <ul>
-        <li>
-          <p>Вінниця, пл. Стуса, 5</p>
-        </li>
-        <li>
-          <p>
-            067 123 45 67 <br />
-            063 123 45 67
-          </p>
-        </li>
-        <li>
-          <p>happycake@mail.ua</p>
-        </li>
-      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.442169747208!2d28.4570342!3d49.2301054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b7e5cbe03df%3A0xa2ac48ec461b859a!2z0LLRg9C70LjRhtGPINCS0LDRgdC40LvRjyDQodGC0YPRgdCwLCA1LCDQktGW0L3QvdC40YbRjywg0JLRltC90L3QuNGG0YzQutCwINC-0LHQu9Cw0YHRgtGMLCAyMTAwMA!5e0!3m2!1suk!2sua!4v1730188511394!5m2!1suk!2sua" width="762" height="685" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="container-address">
+        <h2 id="address">Контакти</h2>
+        <ul>
+          <li>
+            <a class="address-link" href="https://maps.app.goo.gl/fWPsR8gw1EoLcs3b9">Вінниця, пл. Стуса, 5</a>
+          </li>
+          <li>
+            <a class="address-link" href="tel:0671234567"> 067 123 45 67</a> </li>
+            <a class="address-link" href="tel:0631234567">063 123 45 67</a>
+          </li>
+          <li>
+            <a class="address-link" href="mailto:happycake@mail.ua">happycake@mail.ua</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

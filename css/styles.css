@@ -43,6 +43,7 @@ img {
   color: #e85668;
 }
 
+/* #region hero */
 .hero {
   background-image: url(../images/01.jpg);
 }
@@ -87,7 +88,9 @@ img {
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.5);
 }
+/* #endregion */
 
+/* #region aboutus */
 .aboutus {
 }
 
@@ -116,7 +119,9 @@ img {
   line-height: 1.6;
   color: #fff;
 }
+/* #endregion */
 
+/* #region advantages */
 .advantages {
   width: 1440px;
   height: 740px;
@@ -148,7 +153,9 @@ img {
   text-align: center;
   color: #000;
 }
+/* #endregion */
 
+/* #region catalogs */
 .catalogs {
 }
 
@@ -202,7 +209,9 @@ img {
   border: 2px solid #e85668;
   background: #fef7f7;
 }
+/* #endregion */
 
+/* #region gallery */
 .gallery {
 }
 
@@ -219,6 +228,7 @@ img {
 
 .gallery-item {
 }
+/* #endregion */
 
 .container-address {
   width: 678px;
@@ -231,6 +241,12 @@ img {
   font-size: 48px;
   line-height: 1.4;
   color: #fff;
+}
+
+.address-list {
+}
+
+.address-item {
 }
 
 .address-link {

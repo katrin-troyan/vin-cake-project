@@ -36,7 +36,7 @@ img {
   background: #ffeef4;
 }
 
-.link {
+.nav-link {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
@@ -47,7 +47,7 @@ img {
   background-image: url(../images/01.jpg);
 }
 
-.page-title {
+.hero-title {
   font-weight: 700;
   font-size: 64px;
   line-height: 1.4;
@@ -91,7 +91,7 @@ img {
 .aboutus {
 }
 
-.container-aboutus {
+.aboutus-container {
   width: 487px;
   height: 600px;
   background-color: #e85668;
@@ -102,6 +102,12 @@ img {
   font-size: 48px;
   line-height: 1.4;
   color: #fff;
+}
+
+.aboutus-hr {
+  width: 112px;
+  height: 6px;
+  background: #fff;
 }
 
 .aboutus-text {
@@ -124,7 +130,10 @@ img {
   color: #e85668;
 }
 
-.advantages-title {
+.advantages-list {
+}
+
+.advantages-subtitle {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.4;
@@ -140,12 +149,21 @@ img {
   color: #000;
 }
 
+.catalogs {
+}
+
 #catalogs {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.4;
   text-align: center;
   color: #000;
+}
+
+.catalogs-list {
+}
+
+.catalogs-item {
 }
 
 .catalogs-text {
@@ -185,12 +203,21 @@ img {
   background: #fef7f7;
 }
 
+.gallery {
+}
+
 #gallery {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.4;
   text-align: center;
   color: #000;
+}
+
+.gallery-list {
+}
+
+.gallery-item {
 }
 
 .container-address {

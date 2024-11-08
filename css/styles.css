@@ -34,6 +34,7 @@ button {
   line-height: 1.4;
   cursor: pointer;
   text-align: center;
+  padding: 0;
 }
 .title {
   font-weight: 600;
@@ -167,25 +168,31 @@ button {
 
 /* #region advantages */
 .advantages-section {
-  padding: 120px 0 125px;
+  padding: 120px 0 181px;
   background-color: rgba(232, 86, 104, 0.05);
 }
 
 .advantages {
   color: #e85668;
-  margin-bottom: 32px;
+  margin-bottom: 62px;
 }
 
 .advantages-list {
   display: flex;
-  gap: 54px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 .advantages-item {
-  width: calc((100% - 108px) / 3);
+  width: 315px;
 }
 
 .icon-advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 53px;
 }
 
 .advantages-content {
@@ -197,6 +204,7 @@ button {
   line-height: 1.4;
   text-align: center;
   color: #e85668;
+  margin-bottom: 53px;
 }
 
 .advantages-text {
@@ -208,16 +216,25 @@ button {
 
 /* #region catalogs */
 .catalogs-section {
+  padding: 120px 0 141px;
 }
 
 .catalogs {
   color: #000;
+  margin-bottom: 62px;
 }
 
 .catalogs-list {
+  display: flex;
+  gap: 24px;
 }
 
 .catalogs-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.catalogs-content {
+  padding-top: 20px;
 }
 
 .catalogs-text {
@@ -225,6 +242,7 @@ button {
   line-height: 1.6;
   text-align: center;
   color: #000;
+  margin-bottom: 30px;
 }
 
 .catalogs-button {
@@ -236,6 +254,7 @@ button {
   height: 48px;
   color: #fff;
   background: #e85668;
+  margin: 0 auto;
 }
 
 .catalogs-button:hover,
@@ -252,37 +271,65 @@ button {
 }
 /* #endregion */
 
+/* #region foto */
+.foto-section {
+}
+/* #endregion */
+
 /* #region gallery */
 .gallery-section {
+  padding: 129px 0 176px;
 }
 
 .gallery {
   color: #000;
+  margin-bottom: 32px;
 }
 
 .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 26px;
+  row-gap: 24px;
 }
 
 .gallery-item {
+  width: calc((100% - 78px) / 4);
 }
 /* #endregion */
 
 /* #region footer */
+.footer-container {
+  display: flex;
+}
+.footer-iframe {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .container-contacts {
   width: 678px;
   height: 685px;
-  background: #e85668;
+  background-color: #e85668;
+  padding-top: 120px;
+  padding-left: 110px;
 }
 
 .contacts {
   text-align: left;
   color: #fff;
+  margin-bottom: 62px;
 }
 
 .contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .contacts-item {
+}
+
+.icon-footer {
 }
 
 .contacts-link {

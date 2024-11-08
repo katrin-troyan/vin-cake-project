@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/* #region base */
 body {
   font-family: 'Montserrat', sans-serif;
   color: #000;
@@ -45,34 +41,52 @@ button {
   line-height: 1.4;
   text-align: center;
 }
+.container {
+  max-width: 1188px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+/* #endregion */
 
 /* #region header */
 .page-header {
   background: #ffeef4;
 }
-.container {
-}
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
+  padding: 11px 0;
+  line-height: 0;
 }
 .logo-icon {
 }
 .nav-list {
+  display: flex;
+  white-space: nowrap;
+  gap: 30px;
+  margin-left: auto;
 }
 .nav-item {
 }
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
   color: #e85668;
+  padding: 23px 0;
 }
 /* #endregion */
 
 /* #region hero */
 .hero {
+  padding: 136px 0 214px;
   background-image: url(../images/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -80,12 +94,16 @@ button {
   font-size: 64px;
   line-height: 1.4;
   color: #fff;
+  max-width: 768px;
+  margin-bottom: 56px;
 }
 
 .hero-text {
   font-size: 24px;
   line-height: 1.6;
   color: #fff;
+  max-width: 576px;
+  margin-bottom: 56px;
 }
 
 .hero-button {
@@ -113,24 +131,31 @@ button {
 /* #endregion */
 
 /* #region aboutus */
-.aboutus-section {
+.aboutus-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 120px 0;
 }
 
 .aboutus-container {
-  width: 487px;
+  width: 482px;
   height: 600px;
   background-color: #e85668;
+  padding: 53px 47px 0;
 }
 
 .aboutus {
   color: #fff;
   text-align: left;
+  margin-bottom: 13px;
 }
 
-.aboutus-hr {
+.line {
   width: 112px;
   height: 6px;
-  background: #fff;
+  background-color: #ffffff;
+  margin-bottom: 45px;
 }
 
 .aboutus-text {
@@ -142,15 +167,28 @@ button {
 
 /* #region advantages */
 .advantages-section {
-  width: 1440px;
-  height: 740px;
+  padding: 120px 0 125px;
+  background-color: rgba(232, 86, 104, 0.05);
 }
 
 .advantages {
   color: #e85668;
+  margin-bottom: 32px;
 }
 
 .advantages-list {
+  display: flex;
+  gap: 54px;
+}
+
+.advantages-item {
+  width: calc((100% - 108px) / 3);
+}
+
+.icon-advantages {
+}
+
+.advantages-content {
 }
 
 .advantages-subtitle {

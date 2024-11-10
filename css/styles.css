@@ -217,7 +217,7 @@ button {
 
 /* #region catalogs */
 .catalogs-section {
-  padding: 120px 0 141px;
+  padding: 120px 0 0;
 }
 
 .catalogs {
@@ -249,14 +249,13 @@ button {
 .catalogs-button {
   display: block;
   border-radius: 50px;
-  border-color: #e85668;
   border: none;
   min-width: 164px;
   min-height: 48px;
   color: #fff;
   background: #e85668;
   padding: 10px 30px;
-  margin: 0 auto;
+  margin: 0 auto 141px;
 }
 
 .catalogs-button:hover,
@@ -270,11 +269,6 @@ button {
   color: #e85668;
   border: 2px solid #e85668;
   background: #fef7f7;
-}
-/* #endregion */
-
-/* #region foto */
-.foto-section {
 }
 /* #endregion */
 

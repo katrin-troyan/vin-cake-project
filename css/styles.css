@@ -114,7 +114,8 @@ button {
   border: 1px solid #fff;
   border-radius: 57px;
   min-width: 300px;
-  height: 60px;
+  min-height: 60px;
+  padding: 16px 23px;
 }
 
 .hero-button:hover,
@@ -251,9 +252,10 @@ button {
   border-color: #e85668;
   border: none;
   min-width: 164px;
-  height: 48px;
+  min-height: 48px;
   color: #fff;
   background: #e85668;
+  padding: 10px 30px;
   margin: 0 auto;
 }
 
@@ -301,15 +303,10 @@ button {
 /* #region footer */
 .footer-container {
   display: flex;
-}
-.footer-iframe {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #e85668;
 }
 
 .container-contacts {
-  width: 678px;
-  height: 685px;
-  background-color: #e85668;
   padding-top: 120px;
   padding-left: 110px;
 }
@@ -327,6 +324,12 @@ button {
 }
 
 .contacts-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+.telefon {
+  width: 169px;
 }
 
 .icon-footer {

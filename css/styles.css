@@ -152,14 +152,20 @@ button {
 .aboutus {
   color: #fff;
   text-align: left;
-  margin-bottom: 13px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 24px;
+  margin-bottom: 45px;
 }
 
-.line {
+.aboutus::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
   width: 112px;
   height: 6px;
   background-color: #ffffff;
-  margin-bottom: 45px;
 }
 
 .aboutus-text {

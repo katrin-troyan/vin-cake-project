@@ -84,10 +84,12 @@ button {
 /* #region hero */
 .hero {
   padding: 136px 0 214px;
+  max-width: 1440px;
   background-image: url(../images/01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -301,8 +303,7 @@ button {
 }
 
 .container-contacts {
-  padding-top: 120px;
-  padding-left: 110px;
+  padding: 120px 0 180px 110px;
 }
 
 .contacts {

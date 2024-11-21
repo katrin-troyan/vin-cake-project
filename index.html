@@ -61,7 +61,7 @@
             Ексклюзивний торт ручної роботи стане справжньою родзинкою Вашого
             торжества!
           </p>
-          <button type="button" class="hero-button"
+          <button type="button" class="hero-button" data-modal-open
             >Отримати консультацію</button
           >
         </div>
@@ -307,7 +307,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="backdrop" data-modal data-modal-close>
       <div class="modal">
         <p class="modal-text">Введіть, будь&nbsp;ласка,&nbsp;ваші&nbsp;дані</p>
         <form class="modal-form">
@@ -333,5 +333,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

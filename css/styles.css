@@ -35,7 +35,6 @@ button {
   cursor: pointer;
   text-align: center;
   padding: 0;
-  transition: 300ms ease-in;
 }
 .title {
   font-weight: 600;
@@ -237,10 +236,20 @@ button {
 .catalogs-list {
   display: flex;
   gap: 24px;
+  margin-bottom: 141px;
 }
 
 .catalogs-item {
   flex-basis: calc((100% - 72px) / 4);
+}
+.catalogs-img {
+  width: 279px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  transition: transform 0.3s ease;
+}
+.catalogs-img:hover {
+  transform: scale(1.1);
 }
 
 .catalogs-content {
@@ -264,7 +273,7 @@ button {
   color: #fff;
   background: #e85668;
   padding: 10px 30px;
-  margin: 0 auto 141px;
+  margin: 0 auto;
 }
 
 .catalogs-button:hover,
@@ -442,4 +451,17 @@ button {
   color: #fff;
   margin: 0 auto;
 }
+.modal-button:hover,
+.modal-button:focus {
+  color: #e85668;
+  border: 2px solid #e85668;
+  background: transparent;
+}
+
+.modal-button:active {
+  color: #e85668;
+  border: 2px solid #e85668;
+  background: #fef7f7;
+}
+
 /* #endregion */
